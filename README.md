@@ -1,6 +1,11 @@
 <h1 align="center">Hola 👋, Nosotros somos Hola Mundo!</h1>
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Integrantes:</h3>
 <p align="left">
+  📂 \Integrantes Hola Mundo:
+      ┃━ ━📂 \Gustavo Ortiz
+      ┃━ ━📂 \Leonardo Montiel    
+      ┃━ ━📂 \María Rosa Morales
+      ┖━ ━📂 \Francisco Rodeles
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
