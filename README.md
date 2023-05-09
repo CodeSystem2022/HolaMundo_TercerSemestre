@@ -35,7 +35,7 @@
 	</tr>
 	<tr>
 		<td align="center" >3°</td>
-		<td align="center">María Rosa Morales</td>
+		<td>✔️María Rosa Morales</td>
 	</tr>
     <tr>
 		<td align="center">4°</td>
