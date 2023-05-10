@@ -2,7 +2,7 @@
 
 let x= 10; //variable de tipo primitiva
 console.log(x.length);
-console.log('Tipos primitivos')
+console.log('Tipos primitivos');
 
 //Objeto
 let persona= {
