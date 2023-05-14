@@ -37,9 +37,25 @@
 		<td align="center" >3°</td>
 		<td>✔️María Rosa Morales</td>
 	</tr>
-    <tr>
+        <tr>
 		<td align="center">4°</td>
-		<td align="center">Leonardo Montiel</td>
+		<td>✔️Leonardo Montiel</td>
+	</tr>
+	<tr>
+		<td align="center">5°</td>
+		<td> Francisco Rodeles</td>
+	</tr>
+	<tr>
+		<td align="center">6°</td>
+		<td> Gustavo Ortiz</td>
+	</tr>
+	<tr>
+		<td align="center" >7°</td>
+		<td> María Rosa Morales</td>
+	</tr>
+        <tr>
+		<td align="center">8°</td>
+		<td>Leonardo Montiel</td>
 	</tr>
 		
 </table>
