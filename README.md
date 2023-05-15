@@ -1,4 +1,4 @@
-<h1 align="center">Hola! 👋 Nosotros somos Hola Mundo! <img src="https://github.com/SatYu26/SatYu26/blob/master/Assets/Earth.gif" width="40px"></h1></h1>
+<h1 align="center">Hola! 👋 Nosotros somos Hola Mundo! <img src="https://github.com/SatYu26/SatYu26/blob/master/Assets/Earth.gif" width="36px"></h1></h1>
 
 ![44a24431-3e32-4575-b127-67804a739822](https://user-images.githubusercontent.com/111799490/233235807-d48dacf2-8761-4953-9e6b-65466e872408.jpg)
 
