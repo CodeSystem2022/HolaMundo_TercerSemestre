@@ -4,7 +4,7 @@ conexion = psycopg2.connect(user='postgres', password='admin', host='127.0.0.1',
 try:
     with conexion:
         with conexion.cursor() as cursor:
-            sentencia = 'INSERT INTO persona (nombre, apellido, email) VALUE (%s, %s, %s)' #Placeholder
+            sentencia = 'INSERT INTO persona (nombre, apellido, email)VALUES (%s, %s, %s)' #Placeholder
             valores = ('Carlos', 'Lara', 'carlos_l@gmail.com')
             cursor.execute(sentencia, valores) # De esta manera ejecutamos la sentencia
             registros_insertados = cursor.rowcount
