@@ -43,7 +43,7 @@
 	</tr>
 	<tr>
 		<td align="center">5°</td>
-		<td> Francisco Rodeles</td>
+		<td>✔️Francisco Rodeles</td>
 	</tr>
 	<tr>
 		<td align="center">6°</td>
