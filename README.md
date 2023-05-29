@@ -47,7 +47,7 @@
 	</tr>
 	<tr>
 		<td align="center">6°</td>
-		<td> Gustavo Ortiz</td>
+		<td>✔️Gustavo Ortiz</td>
 	</tr>
 	<tr>
 		<td align="center" >7°</td>
