@@ -51,11 +51,11 @@
 	</tr>
 	<tr>
 		<td align="center" >7°</td>
-		<td> María Rosa Morales</td>
+		<td>Leonardo Montiel</td>
 	</tr>
         <tr>
 		<td align="center">8°</td>
-		<td>Leonardo Montiel</td>
+		<td>María Rosa Morales</td>
 	</tr>
 		
 </table>
