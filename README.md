@@ -51,7 +51,7 @@
 	</tr>
 	<tr>
 		<td align="center" >7°</td>
-		<td>Leonardo Montiel</td>
+		<td>✔️Leonardo Montiel</td>
 	</tr>
         <tr>
 		<td align="center">8°</td>
