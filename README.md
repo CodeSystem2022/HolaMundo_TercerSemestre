@@ -55,7 +55,22 @@
 	</tr>
         <tr>
 		<td align="center">8°</td>
-		<td>María Rosa Morales</td>
+		<td>✔️María Rosa Morales</td>
 	</tr>
-		
+	<tr>
+		<td align="center">5°</td>
+		<td>Francisco Rodeles</td>
+	</tr>
+	<tr>
+		<td align="center">6°</td>
+		<td>Gustavo Ortiz</td>
+	</tr>
+	<tr>
+		<td align="center" >7°</td>
+		<td>Leonardo Montiel</td>
+	</tr>
+        <tr>
+		<td align="center">8°</td>
+		<td>María Rosa Morales</td>
+	</tr>	
 </table>
