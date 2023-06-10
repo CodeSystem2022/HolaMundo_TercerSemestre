@@ -67,10 +67,10 @@
 	</tr>
 	<tr>
 		<td align="center" >11°</td>
-		<td>Leonardo Montiel</td>
+		<td>María Rosa Morales</td>
 	</tr>
         <tr>
 		<td align="center">12°</td>
-		<td>María Rosa Morales</td>
+		<td>Leonardo Montiel</td>
 	</tr>	
 </table>
