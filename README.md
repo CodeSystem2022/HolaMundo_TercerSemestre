@@ -58,19 +58,19 @@
 		<td>✔️María Rosa Morales</td>
 	</tr>
 	<tr>
-		<td align="center">5°</td>
+		<td align="center">9°</td>
 		<td>Francisco Rodeles</td>
 	</tr>
 	<tr>
-		<td align="center">6°</td>
+		<td align="center">10°</td>
 		<td>Gustavo Ortiz</td>
 	</tr>
 	<tr>
-		<td align="center" >7°</td>
+		<td align="center" >11°</td>
 		<td>Leonardo Montiel</td>
 	</tr>
         <tr>
-		<td align="center">8°</td>
+		<td align="center">12°</td>
 		<td>María Rosa Morales</td>
 	</tr>	
 </table>
