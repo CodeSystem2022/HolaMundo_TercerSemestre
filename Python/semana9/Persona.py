@@ -49,7 +49,6 @@ class Persona:
         self._email = email
 
 
-
 if __name__ == '__main__':
     persona1 = persona(1, 'Juan', 'Perez', 'jperez@mail.com')
     log.debug(persona1)
