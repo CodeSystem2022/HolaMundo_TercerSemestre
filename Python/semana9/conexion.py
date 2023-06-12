@@ -1,4 +1,4 @@
-import psycopg2 as bd  # psycopg2 as bd, también puede importarse así
+import psycopg2 as bd  # psycopg2 as bd, o también puede importarse así
 from logger_base import log
 import sys
 
