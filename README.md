@@ -59,7 +59,7 @@
 	</tr>
 	<tr>
 		<td align="center">9°</td>
-		<td>Francisco Rodeles</td>
+		<td>✔️Francisco Rodeles</td>
 	</tr>
 	<tr>
 		<td align="center">10°</td>
