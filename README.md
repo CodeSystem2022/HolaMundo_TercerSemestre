@@ -22,8 +22,8 @@
 
   <table align="center">
 	<tr>
-		<th>Número de semana</th>
-		<th> Scrum Master</th>
+		<th>NÚMERO DE SEMANA</th>
+		<th> SCRUM MASTER</th>
 	</tr>
 	<tr>
 		<td align="center">1°</td>
@@ -63,14 +63,14 @@
 	</tr>
 	<tr>
 		<td align="center">10°</td>
-		<td>Gustavo Ortiz</td>
+		<td align="center">Gustavo Ortiz</td>
 	</tr>
 	<tr>
 		<td align="center" >11°</td>
-		<td>María Rosa Morales</td>
+		<td align="center">María Rosa Morales</td>
 	</tr>
         <tr>
 		<td align="center">12°</td>
-		<td>Leonardo Montiel</td>
+		<td align="center">Leonardo Montiel</td>
 	</tr>	
 </table>
