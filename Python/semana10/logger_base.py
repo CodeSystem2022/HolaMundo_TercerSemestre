@@ -1,5 +1,4 @@
 import logging as log
-# log = loggin -> También así
 
 # docs.python.org/3/howto/logging.html
 # tener en cuenta que esta va a ser la base para todos los demás archivos con el manejo de logging
