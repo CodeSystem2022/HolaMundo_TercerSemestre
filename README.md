@@ -63,7 +63,7 @@
 	</tr>
 	<tr>
 		<td align="center">10°</td>
-		<td align="center">✔️Gustavo Ortiz</td>
+		<td>✔️Gustavo Ortiz</td>
 	</tr>
 	<tr>
 		<td align="center" >11°</td>
