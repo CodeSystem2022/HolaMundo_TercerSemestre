@@ -1,4 +1,14 @@
 
+
+
+
+# QUERYS
+TOTAL_VENTAS = '''SELECT venta.nombre as nombre_venta, zona.nombre as nombre_zona
+FROM venta
+INNER JOIN zona ON venta.id_zona = zona.id;'''
+
+
+
 MENU = '''
 Menú de opciones
 1) Total de ventas por zona
