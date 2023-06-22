@@ -14,3 +14,14 @@ Menú de opciones
 # Bienvenida
 
 BIENVENIDA = "Bienvenido al sistema de ventas"
+
+# INPUTS
+INPUT_ID_USER = "Ingrese el id de usuario: "
+OPCION = "Ingrese una opción: "
+
+# CREDENCIALES
+username = "admin"
+password = "1234"
+
+# ERRORES
+ERROR = "Opción incorrecta, intente nuevamente"
