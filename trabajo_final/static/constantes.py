@@ -1,6 +1,6 @@
+# Bienvenida
 
-
-
+BIENVENIDA = "Bienvenido al sistema de ventas"
 
 # QUERYS
 TOTAL_VENTAS = '''SELECT venta.nombre as nombre_venta, zona.nombre as nombre_zona
@@ -9,8 +9,6 @@ INNER JOIN zona ON venta.id_zona = zona.id;'''
 
 TOTAL_VENDEDORES = '''SELECT vendedor.nombre as Vendedores
 FROM vendedor;'''
-
-
 
 MENU = '''
 Menú de opciones
@@ -23,10 +21,6 @@ Menú de opciones
 7) Limpiar pantalla
 8) Salir
 '''
-
-# Bienvenida
-
-BIENVENIDA = "Bienvenido al sistema de ventas"
 
 # INPUTS
 INPUT_ID_USER = "Ingrese el id de usuario: "
