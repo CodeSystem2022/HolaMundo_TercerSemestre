@@ -7,6 +7,9 @@ TOTAL_VENTAS = '''SELECT venta.nombre as nombre_venta, zona.nombre as nombre_zon
 FROM venta
 INNER JOIN zona ON venta.id_zona = zona.id;'''
 
+TOTAL_VENDEDORES = '''SELECT vendedor.nombre as Vendedores
+FROM vendedor;'''
+
 
 
 MENU = '''
