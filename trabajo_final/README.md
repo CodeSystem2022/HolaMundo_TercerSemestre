@@ -44,7 +44,7 @@ A continuación, se presenta la estructura general del programa:
   
 ## **3. Estructura de la base de datos:** 
 
-A continuación se presenta la estructura de la base de datos: 
+A continuación, se presenta la estructura de la base de datos: 
 
 La base de datos posee 3 tablas principales:
 
