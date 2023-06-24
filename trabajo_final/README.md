@@ -2,13 +2,15 @@
   
 ## **1. Descripción**
 
-Palta, consiste en un servicio de entregas de comidas saludables que posee sucursales en todo el país. Nosotros somos Hola Mundo, alumnos de la UTN Regional San Rafael y los desarrolladores de este programa para esta empresa. 
-    
-Para el desarrollo de la tareas administrativas, el país se encuentra dividido en cinco zonas: Norte, Sur, Este, Oeste y Centro. Cada una de estas zonas posee vendedores encargados de la gestión.
+Palta es una empresa especializada en servicios de entrega de comidas saludables, con presencia en todo el país. Para asegurar un eficiente desarrollo de las tareas administrativas, el país se divide en cinco zonas geográficas: Norte, Sur, Este, Oeste y Centro. Cada una de estas zonas cuenta con un equipo de vendedores dedicados a la gestión y coordinación de las operaciones.
 
-## **2. Funcionalidades**
+Nosotros somos Hola Mundo, alumnos de la UTN Regional San Rafael y queremos presentarles nuestro programa diseñado especialmente para esta empresa con la finalidad de optimizar sus operaciones. 
 
-La empresa almacena sus datos y obtiene estadísticas sobre el comportamiento de sus representantes y de las ventas. El equipo Hola mundo trabaja con Python y una base de datos relacional, en este caso PostressSQL, la cual almacena los datos recibidos de los empleados y opera con los mismos. Una vez cargada la información, a través de un menú, el programa puede mostrar:
+En los siguientes apartados explicamos en qué consiste nuestro programa. 
+   
+## **2. Funcionalidades del programa**
+
+La empresa almacena sus datos y obtiene estadísticas sobre el comportamiento de sus representantes y de las ventas. El equipo Hola mundo trabaja con Python y una base de datos relacional, en este caso PostresSQL, la cual almacena los datos recibidos de los empleados y opera con los mismos. Una vez cargada la información, a través de un menú, el programa puede mostrar:
 
  - Total de ventas por zonas.
  - Total de vendedores
@@ -42,19 +44,18 @@ A continuación, se presenta la estructura general del programa:
 - Archivo funciones.py: Contiene la función menu() que muestra el menú de opciones y gestiona la interacción con el usuario.
 - Archivo constantes.py: Define constantes que contienen mensajes y opciones para la interfaz de usuario.
   
-## **3. Estructura de la base de datos:** 
+## **2.1 Componentes de la base de datos:** 
 
-A continuación, se presenta la estructura de la base de datos: 
+La base de datos se estructura de la siguiente manera: 
 
-La base de datos posee 3 tablas principales:
+Existen 3 tablas principales:
 
-- zona: La cual solo tiene id y 5 zonas distintas, las cuales se posicionan en orden numérico del 1 al 5
-norte,sur,este,oeste,centro
+- zona: con id y 5 zonas distintas. Cada una de ellas se establecen en orden numérico del 1 al 5
+(norte,sur,este,oeste,centro)
 
 - vendedor: con su respectivo nombre e id. 
 
-- venta: Cada una posee su  id y nombre correspondiente, id de la zona
-id del vendedor que realizó la operación y fecha.
+- venta: Cada una posee su  id y nombre correspondiente, id de la zona, id del vendedor que realizó la operación y fecha.
 
 ## **4. Explicación del código en detalle** 
 
