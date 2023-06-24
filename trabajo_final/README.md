@@ -28,7 +28,7 @@ A continuación, se presenta la estructura general del programa:
   
 ### Base de datos:
 
-Archivo baseDatos.py: Contiene funciones para la conexión y cierre de la conexión a la base de datos PostgreSQL.
+- Archivo baseDatos.py: Contiene funciones para la conexión y cierre de la conexión a la base de datos PostgreSQL.
 
 ### Operaciones de base de datos:
 
