@@ -50,14 +50,14 @@ La base de datos se estructura de la siguiente manera:
 
 Existen 3 tablas principales:
 
-- zona: con id y 5 zonas distintas. Cada una de ellas se establecen en orden numérico del 1 al 5
+- Zona: con id y 5 zonas distintas. Cada una de ellas se establecen en orden numérico del 1 al 5
 (norte,sur,este,oeste,centro)
 
-- vendedor: con su respectivo nombre e id. 
+- Vendedor: con su respectivo nombre e id. 
 
-- venta: Cada una posee su  id y nombre correspondiente, id de la zona, id del vendedor que realizó la operación y fecha.
+- Venta: Cada una posee su  id y nombre correspondiente, id de la zona, id del vendedor que realizó la operación y fecha.
 
-## **3 Explicación del código en detalle** 
+## **3. Explicación del código en detalle** 
 
 Por favor, ingrese a la explicación del código completo en nuestra wiki 
 
