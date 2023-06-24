@@ -15,8 +15,7 @@ def primeraFuncion(bd):
             tabla.add_row(registro)
         # Imprimimos la tabla
         print(tabla)
-    # Cerramos la conexión
-    bd.close()
+
 
 def segundaFuncion(bd):
     # ESTABLECEMOS LA QUERY
@@ -117,6 +116,5 @@ def sextaFuncion(bd):
         print(f'Ventas del día {fechaElegida}')
         # Imprimimos la tabla
         print(tabla)
-    # Cerramos la conexión
-    bd.close()
+
 
