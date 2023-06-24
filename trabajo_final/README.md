@@ -58,7 +58,8 @@ id del vendedor que realizó la operación y fecha.
 
 ## **4. Explicación del código en detalle** 
 
-Por favor, ingrese a la explicación del código paso a pasao en nuestra wiki 
+Por favor, ingrese a la explicación del código completo en nuestra wiki 
+Link del Proyecto Integrador: 
 
 ## **5. Tecnologías utilizadas:**
 
