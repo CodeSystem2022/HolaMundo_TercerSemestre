@@ -32,3 +32,14 @@ password = "1234"
 
 # ERRORES
 ERROR = "Opción incorrecta, intente nuevamente"
+
+VENTAS_VENDEDOR = f'''SELECT venta.nombre as nombre_venta, vendedor.nombre as nombre_vendedor
+    FROM venta
+    INNER JOIN vendedor ON venta.id_vendedor = vendedor.id
+    WHERE venta.id_vendedor = '''
+
+
+MAYOR_VENTA = f'''
+'''
+
+
