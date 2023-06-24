@@ -2,7 +2,7 @@
   
 ## **1. Descripción**
 
-Palta, consiste es un servicio de entregas de comidas saludables con sucursales en todo el país. Nosotros somos Hola Mundo, alumnos de la UTN Regional San Rafael y los desarrolladores de este programa para esta empresa. 
+Palta, consiste en un servicio de entregas de comidas saludables que posee sucursales en todo el país. Nosotros somos Hola Mundo, alumnos de la UTN Regional San Rafael y los desarrolladores de este programa para esta empresa. 
     
 Para el desarrollo de la tareas administrativas, el país se encuentra dividido en cinco zonas: Norte, Sur, Este, Oeste y Centro. Cada una de estas zonas posee vendedores encargados de la gestión.
 
