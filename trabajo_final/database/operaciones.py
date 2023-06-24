@@ -55,3 +55,44 @@ def terceraFuncion(bd):
 def seleccionarUsuario():
     inp = input(INPUT_ID_USER)
     return inp
+
+def cuartaFuncion(bd):
+    usuario_id = seleccionarUsuario()
+    # ESTABLECEMOS LA QUERY
+    query = f''' SELECT COUNT(*) AS total_ventas, vendedor.nombre as nombre_vendedor
+    FROM venta
+    INNER JOIN vendedor ON venta.id_vendedor = vendedor.id
+    WHERE id_vendedor = {usuario_id}
+    GROUP BY vendedor.nombre;
+    '''
+    # EJECUTAMOS LA QUERY
+    with bd.cursor() as cursor:
+        cursor.execute(query)
+        resultado = cursor.fetchone()
+        if resultado:  
+            nombre_vendedor = resultado[1]
+            total_ventas = resultado[0]
+            print(f"El vendedor {nombre_vendedor} con ID {usuario_id} vendió {total_ventas} productos")
+        else:
+            print("No existe un vendedor con ese ID")
+
+def quintaFuncion(bd):
+    # ESTABLECEMOS LA QUERY
+    query = ''' SELECT vendedor.nombre, COUNT(*) AS total_ventas
+    FROM venta
+    INNER JOIN vendedor ON venta.id_vendedor = vendedor.id
+    GROUP BY vendedor.nombre
+    ORDER BY total_ventas DESC
+    LIMIT 1;
+    '''
+    # EJECUTAMOS LA QUERY
+    with bd.cursor() as cursor:
+        cursor.execute(query)
+        resultado = cursor.fetchone()
+        if resultado:
+            nombre_vendedor = resultado[0]
+            total_ventas = resultado[1]
+            print(f"El vendedor {nombre_vendedor} vendió {total_ventas} productos")
+        else:
+            print("No existe un vendedor con ese ID")
+
