@@ -57,20 +57,20 @@ Existen 3 tablas principales:
 
 - venta: Cada una posee su  id y nombre correspondiente, id de la zona, id del vendedor que realizó la operación y fecha.
 
-## **4. Explicación del código en detalle** 
+## **3 Explicación del código en detalle** 
 
 Por favor, ingrese a la explicación del código completo en nuestra wiki 
 
 Link del Proyecto Integrador: 
 
-## **5. Tecnologías utilizadas:**
+## **4. Tecnologías utilizadas:**
 
 <div class="contenedor-imagenes">
   <img src="https://github.com/CodeSystem2022/HolaMundo_TercerSemestre/assets/92409193/78bdf7ea-edb8-4911-a57b-a07e194f0172" width="50"><figcaption>Python</figcaption> 
   <img src="https://github.com/CodeSystem2022/HolaMundo_TercerSemestre/assets/92409193/89fe2490-43fd-4fce-be7d-1547fcb5b665" width="60"> <figcaption>PosgreSQL</figcaption>
 </div>
 
-## **6. Integrantes del equipo que han participado en la elaboración del Proyecto Integrador:** 
+## **5. Integrantes del equipo que han participado en la elaboración del Proyecto Integrador:** 
 
  * Montiel, Israel Leonardo 
  * Morales, María Rosa 
