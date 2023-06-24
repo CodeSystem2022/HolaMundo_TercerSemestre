@@ -20,7 +20,7 @@ La empresa almacena sus datos y obtiene estadísticas sobre el comportamiento de
  - Limpiar pantalla
  - Salir del menú.
 
-## **2. Estructura general del programa:**
+## **3. Estructura general del programa:**
 
 A continuación, se presenta la estructura general del programa:
 
@@ -44,7 +44,7 @@ A continuación, se presenta la estructura general del programa:
 - Archivo funciones.py: Contiene la función menu() que muestra el menú de opciones y gestiona la interacción con el usuario.
 - Archivo constantes.py: Define constantes que contienen mensajes y opciones para la interfaz de usuario.
   
-## **2.1 Componentes de la base de datos:** 
+## **3.1 Componentes de la base de datos:** 
 
 La base de datos se estructura de la siguiente manera: 
 
@@ -57,20 +57,20 @@ Existen 3 tablas principales:
 
 - Venta: Cada una posee su  id y nombre correspondiente, id de la zona, id del vendedor que realizó la operación y fecha.
 
-## **3. Explicación del código en detalle** 
+## **4. Explicación del código en detalle** 
 
 Por favor, ingrese a la explicación del código completo en nuestra wiki 
 
 Link del Proyecto Integrador: 
 
-## **4. Tecnologías utilizadas:**
+## **5. Tecnologías utilizadas:**
 
 <div class="contenedor-imagenes">
   <img src="https://github.com/CodeSystem2022/HolaMundo_TercerSemestre/assets/92409193/78bdf7ea-edb8-4911-a57b-a07e194f0172" width="50"><figcaption>Python</figcaption> 
   <img src="https://github.com/CodeSystem2022/HolaMundo_TercerSemestre/assets/92409193/89fe2490-43fd-4fce-be7d-1547fcb5b665" width="60"> <figcaption>PosgreSQL</figcaption>
 </div>
 
-## **5. Integrantes del equipo que han participado en la elaboración del Proyecto Integrador:** 
+## **6. Integrantes del equipo que han participado en la elaboración del Proyecto Integrador:** 
 
  * Montiel, Israel Leonardo 
  * Morales, María Rosa 
