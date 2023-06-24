@@ -1,1 +1,80 @@
+<h1 align="center">Proyecto Integrador Hola mundo</h1>
+  
+## **1. Descripción**
 
+Palta, consiste es un servicio de entregas de comidas saludables con sucursales en todo el país. Nosotros somos Hola Mundo, alumnos de la UTN Regional San Rafael y los desarrolladores de este programa para esta empresa. 
+    
+Para el desarrollo de la tareas administrativas, el país se encuentra dividido en cinco zonas: Norte, Sur, Este, Oeste y Centro. Cada una de estas zonas posee vendedores encargados de la gestión.
+
+## **2. Funcionalidades**
+
+La empresa almacena sus datos y obtiene estadísticas sobre el comportamiento de sus representantes y de las ventas. El equipo Hola mundo trabaja con Python y una base de datos relacional, en este caso PostressSQL, la cual almacena los datos recibidos de los empleados y opera con los mismos. Una vez cargada la información, a través de un menú, el programa puede mostrar:
+
+ - Total de ventas por zonas.
+ - Total de vendedores
+ - Total de ventas de cada representante 
+ - Mayor venta, indicando el número de representante que la realizó.
+ - Datos anteriores.
+ - Limpiar pantalla
+ - Salir del menú.
+
+## **2. Estructura general del programa:**
+
+A continuación, se presenta la estructura general del programa:
+
+### Punto de entrada principal:
+
+- Archivo main.py: Contiene la función main() que es el punto de entrada principal del programa. Controla el flujo de ejecución, incluyendo el inicio de sesión, la conexión a la base de datos y la navegación por el menú de opciones.
+  
+### Base de datos:
+
+Archivo baseDatos.py: Contiene funciones para la conexión y cierre de la conexión a la base de datos PostgreSQL.
+
+### Operaciones de base de datos:
+
+- Archivo operaciones.py: Contiene varias funciones que realizan consultas a la base de datos y procesan los resultados.
+- Archivo constantes.py: Define constantes que contienen consultas SQL utilizadas en las operaciones de base de datos.
+
+### Interfaz de usuario:
+
+- Archivo login.py: Proporciona funciones para la gestión del inicio de sesión del usuario.
+- Archivo usuario.py: Define la clase Usuario que representa a un usuario y contiene métodos relacionados con la autenticación.
+- Archivo funciones.py: Contiene la función menu() que muestra el menú de opciones y gestiona la interacción con el usuario.
+- Archivo constantes.py: Define constantes que contienen mensajes y opciones para la interfaz de usuario.
+  
+## **3. Estructura de la base de datos:** 
+
+A continuación se presenta la estructura de la base de datos: 
+
+La base de datos posee 3 tablas principales:
+
+- zona: La cual solo tiene id y 5 zonas distintas, siendo estas en orden numérico del 1 al 5
+norte,sur,este,oeste,centro
+
+- vendedor: con su respectivo nombre e id. 
+
+- venta: Cada una posee su  id y nombre correspondiente, id de la zona
+id del vendedor que realizó la operación y fecha.
+
+## **4. Explicación del código en detalle** 
+
+Por favor, ingrese a la explicación del código paso a pasao en nuestra wiki 
+
+## **5. Tecnologías utilizadas:**
+
+<div class="contenedor-imagenes">
+  <img src="https://github.com/CodeSystem2022/HolaMundo_TercerSemestre/assets/92409193/78bdf7ea-edb8-4911-a57b-a07e194f0172" width="50"><figcaption>Python</figcaption> 
+  <img src="https://github.com/CodeSystem2022/HolaMundo_TercerSemestre/assets/92409193/89fe2490-43fd-4fce-be7d-1547fcb5b665" width="60"> <figcaption>PosgreSQL</figcaption>
+</div>
+
+## **6. Integrantes del equipo que han participado en la elaboración del Proyecto Integrador:** 
+
+ * Montiel, Israel Leonardo 
+ * Morales, María Rosa 
+ * Ortiz, Carlos Gustavo
+ * Rodeles, Francisco 
+
+
+
+
+    
