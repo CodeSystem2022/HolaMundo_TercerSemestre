@@ -48,7 +48,7 @@ A continuación, se presenta la estructura de la base de datos:
 
 La base de datos posee 3 tablas principales:
 
-- zona: La cual solo tiene id y 5 zonas distintas, siendo estas en orden numérico del 1 al 5
+- zona: La cual solo tiene id y 5 zonas distintas, las cuales se posicionan en orden numérico del 1 al 5
 norte,sur,este,oeste,centro
 
 - vendedor: con su respectivo nombre e id. 
