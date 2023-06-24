@@ -96,3 +96,27 @@ def quintaFuncion(bd):
         else:
             print("No existe un vendedor con ese ID")
 
+def sextaFuncion(bd):
+    fechaElegida = input("Ingrese la fecha a buscar (AAAA-MM-DD): ")
+    # ESTABLECEMOS LA QUERY
+    query = f''' SELECT venta.nombre as nombre_venta, vendedor.nombre AS nombre_vendedor, zona.nombre AS nombre_zona
+    FROM venta
+    INNER JOIN vendedor ON venta.id_vendedor = vendedor.id
+    INNER JOIN zona ON venta.id_zona = zona.id
+    WHERE DATE(fecha) = DATE('{fechaElegida}%');
+    '''
+    # EJECUTAMOS LA QUERY
+    with bd.cursor() as cursor:
+        cursor.execute(query)
+        columnas = [columna[0] for columna in cursor.description]
+        tabla = PrettyTable(columnas)
+        registros = cursor.fetchall()
+        # Agregamos los registros a la tabla
+        for registro in registros:
+            tabla.add_row(registro)
+        print(f'Ventas del día {fechaElegida}')
+        # Imprimimos la tabla
+        print(tabla)
+    # Cerramos la conexión
+    bd.close()
+
