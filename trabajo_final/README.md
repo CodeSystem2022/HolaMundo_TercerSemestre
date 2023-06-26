@@ -63,6 +63,8 @@ Por favor, ingrese a la explicación del código completo en nuestra wiki
 
 Link del Proyecto Integrador: 
 
+## [Proyecto Integrador](https://github.com/CodeSystem2022/HolaMundo_TercerSemestre/wiki/Proyecto-Integrador-Hola-Mundo)
+
 ## **5. Tecnologías utilizadas:**
 
 <div class="contenedor-imagenes">
