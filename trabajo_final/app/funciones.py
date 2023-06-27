@@ -16,7 +16,7 @@ def salir(bd):
     db.cerrar_conexion(bd)
     exit()
 
-def clear_terminal():
+def clear_terminal(bd=None):
     os.system('cls' if os.name == 'nt' else 'clear')
 
 OPERACIONES = {
@@ -26,7 +26,7 @@ OPERACIONES = {
     '4': op.cuartaFuncion,
     '5': op.quintaFuncion,
     '6': op.sextaFuncion,
-    '7': clear_terminal(),
+    '7': clear_terminal,
     '8': salir
 }
 

@@ -1,0 +1,5 @@
+1) Crear una base de datos llamada "postgres"
+2) Descargar el backup de tu sistema operativo correspondiente
+3) Click derecho y restore
+4) Seleccionar la ruta donde está ubicado el archivo
+5) Seleccionar rol de "postgres"
