@@ -67,7 +67,7 @@
 	</tr>
 	<tr>
 		<td align="center" >11°</td>
-		<td align="center">María Rosa Morales</td>
+		<td align="center">✔️María Rosa Morales</td>
 	</tr>
         <tr>
 		<td align="center">12°</td>
