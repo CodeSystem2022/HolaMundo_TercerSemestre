@@ -11,7 +11,7 @@ public class Conexion {
         Connection conexion = null;
         //variables para conectarnos a la bdd
         var baseDatos ="estudiantes2022";
-        var url = "jdbc:mysql://localhost:3306/estudiantes/" + baseDatos;
+        var url = "jdbc:mysql://localhost:3306/" + baseDatos;
         var usuario = "root";
         var password = "admin";
         //cargamos la clase del driver de mysql en memoria
