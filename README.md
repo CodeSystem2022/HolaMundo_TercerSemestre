@@ -71,6 +71,6 @@
 	</tr>
         <tr>
 		<td align="center">12°</td>
-		<td align="center">Leonardo Montiel</td>
+		<td align="center">✔️Leonardo Montiel</td>
 	</tr>	
 </table>
